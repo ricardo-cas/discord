@@ -7,6 +7,9 @@ import random
 client = discord.Client()
 token = os.environ.get('DISCORD_MOTIVACIONAL_BOT')
 
+lista_triste = ['triste','tristeza','desgosto','abatimento','melancolia','desânimo','mágoa','tédio','nostalgia','aborrecimento','depressão']
+
+
 def gera_frase():
   response = requests.get('https://zenquotes.io/api/random')
   dados_json = json.loads(response.text)
@@ -25,9 +28,10 @@ async def on_message(message):
     if message.content.startswith('/oi'):
         await message.channel.send('Olá, eu sou o Motivacional Bot! =)')
     
-    if message.content.startswith('/nota'):
+    if message.content.startswith('/frase'):
         frase = gera_frase()
-        await message.channel.send(frase)    
+        await message.channel.send(frase)
+   
 
 def ler_json():
     with open('./frases.json', 'r', encoding='UTF-8') as arquivo:
