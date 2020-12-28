@@ -9,7 +9,14 @@
 
 # Discord Bot: Bot Motivacional
 
-Este bot irá mandar frases motivacionais para os usuários através do comando /frase
+Este bot irá mandar frases motivacionais para os usuários através dos comandos:
+
+```bash
+/oi - O Bot se apresenta
+/frase - Lista uma frase aleatória em inglês
+/motiva - Lista uma frase aleatória em português
+
+```
 
 ## To - Do List
 
