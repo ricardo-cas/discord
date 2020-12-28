@@ -2,6 +2,7 @@
 
 - [Sumário](#sumário)
 - [Discord Bot: Bot Motivacional](#discord-bot-bot-motivacional)
+  - [Video de exemplo das funções](#video-de-exemplo-das-funções)
   - [To - Do List](#to---do-list)
   - [Requerimentos](#requerimentos)
     - [Requerimentos Python](#requerimentos-python)
@@ -17,6 +18,10 @@ Este bot irá mandar frases motivacionais para os usuários através dos comando
 /motiva - Lista uma frase aleatória em português
 
 ```
+
+## Video de exemplo das funções
+
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/9I16gP6x9gY/0.jpg)](http://www.youtube.com/watch?v=9I16gP6x9gY)
 
 ## To - Do List
 
