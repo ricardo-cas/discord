@@ -17,7 +17,7 @@ Este bot irá mandar frases motivacionais para os usuários através do comando 
 - [x] criar conta no developers discord
 - [x] fazer o bot iniciar
 - [x] fazer o bot responder a um comando fazer o bot verificar as conversas e mandar uma frase motivacional se houver uma palavra triste na frase
-- [ ] upar o bot em algum serviço, para que ele fique sempre On-line
+- [x] upar o bot em algum serviço, para que ele fique sempre On-line
 - [ ] criar um comando 'Help' que lista os comandos e uma breve descrição sobre o que o comando faz
 
 ## Requerimentos
