@@ -3,7 +3,8 @@
 - [Sumário](#sumário)
 - [Discord Bot: Bot Motivacional](#discord-bot-bot-motivacional)
   - [Video de exemplo das funções](#video-de-exemplo-das-funções)
-  - [To - Do List](#to---do-list)
+  - [To - Do List - Bot Motivacional](#to---do-list---bot-motivacional)
+  - [To - Do List - Bot Gerente](#to---do-list---bot-gerente)
   - [Requerimentos](#requerimentos)
     - [Requerimentos Python](#requerimentos-python)
     - [Requerimentos Sites externos](#requerimentos-sites-externos)
@@ -23,14 +24,24 @@ Este bot irá mandar frases motivacionais para os usuários através dos comando
 
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/9I16gP6x9gY/0.jpg)](http://www.youtube.com/watch?v=9I16gP6x9gY)
 
-## To - Do List
+## To - Do List - Bot Motivacional
 
-- [x] importar bibliotecas primarias
-- [x] criar conta no developers discord
-- [x] fazer o bot iniciar
-- [x] fazer o bot responder a um comando fazer o bot verificar as conversas e mandar uma frase motivacional se houver uma palavra triste na frase
-- [x] upar o bot em algum serviço, para que ele fique sempre On-line
-- [ ] criar um comando 'Help' que lista os comandos e uma breve descrição sobre o que o comando faz
+- [ ] Bot Motivacional
+  - [x] importar bibliotecas primarias
+  - [x] criar conta no developers discord
+  - [x] fazer o bot iniciar
+  - [x] fazer o bot responder a um comando fazer o bot verificar as conversas e mandar uma frase motivacional se houver uma palavra triste na frase
+  - [x] upar o bot em algum serviço, para que ele fique sempre On-line
+  - [ ] criar um comando 'Help' que lista os comandos e uma breve descrição sobre o que o comando faz
+
+## To - Do List - Bot Gerente
+
+- [ ] Bot Gerente
+  - [x] importar bibliotecas primarias
+  - [x] fazer o bot iniciar
+  - [ ] fazer o bot responder a um comando fazer o bot verificar as conversas e mandar uma frase motivacional se houver uma palavra triste na frase
+  - [ ] upar o bot em algum serviço, para que ele fique sempre On-line
+  - [ ] criar um comando 'Help' que lista os comandos e uma breve descrição sobre o que o comando faz
 
 ## Requerimentos
 
@@ -54,4 +65,5 @@ pip install requests2==2.16.0
 ### Requerimentos Sites externos
 
 [Repl it](https://repl.it/) - Para rodar o bot se não funcionar no Windows
+
 [Uptime robot](https://uptimerobot.com/) - Para ficar pingando o web service do bot para garantir que o Replit não fique off-lie
