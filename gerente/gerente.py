@@ -14,7 +14,6 @@ from time import sleep      # Imports sleep because time.sleep() doesn't work
 
 client = commands.Bot(command_prefix = '.')
 token = os.environ.get('DISCORD_MANAGER_BOT')
-
 # Checks time that bot was started
 botStartTime = DT.datetime.now()
 
@@ -31,7 +30,7 @@ async def on_ready():
     # definindo a frase do jogo que o bot estará "jogando"
     game = discord.Game("De olho em você ...")
     # definindo o status do bot para "não pertube" e o jogo que ele está jogando
-    await client.change_presence(status=discord.Status.dnd, activity=game)
+    await client.change_presence(status=discord.Status.online, activity=game)
 
 @client.command()
 async def ping(ctx):
@@ -57,7 +56,6 @@ async def ola(ctx):
 async def oi(ctx):
   await ctx.send('Oi! Tudo bem?')
 
-
 # Info Command
 @client.command(pass_context=True)
 async def info(ctx):
@@ -78,6 +76,11 @@ async def time(ctx):
     await ctx.send('Server time is: {}'.format(DT.datetime.now()))
     # lout.log(config, startTime, 'time')
 
-
+# mostra s membros on-line
+@client.command()
+async def online(ctx):
+  id_server = client.get_guild(325480061350313986)
+  await ctx.send(f'Neste momento temos {id_server.member_count} membros on-line no server')
+   
 # keep_alive()
 client.run(os.environ.get('DISCORD_MANAGER_BOT'))
